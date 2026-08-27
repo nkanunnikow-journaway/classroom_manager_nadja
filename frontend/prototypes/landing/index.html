@@ -1,10 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Classroom-Manager · BBS 2 Leer</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+<header class="site-header">
+    <p class="site-header__brand">Classroom-Manager</p>
+
+    <nav class="nav" aria-label="Hauptnavigation">
+        <ul class="nav__list">
+            <li class="nav__item"><a class="nav__link" href="#klassen">Klassen</a></li>
+            <li class="nav__item"><a class="nav__link" href="#anwesenheiten">Anwesenheiten</a></li>
+            <li class="nav__item"><a class="nav__link" href="#kursbuch">Kursbuch</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <section class="hero">
+        <h1 class="hero__title">Classroom-Manager</h1>
+        <p class="hero__text">
+            Klassen verwalten, Anwesenheiten erfassen und Leistungen dokumentieren
+        </p>
+    </section>
+
+    <section class="features">
+        <h2 class="features__title">Bereiche</h2>
+
+        <div class="card-grid">
+
+            <article class="card" id="klassen">
+                <h3 class="card__title">Klassen</h3>
+                <p class="card__text">
+                    Alle Lerngruppen im Überblick: Schüler:innen anlegen, Stammdaten
+                    pflegen und Klassen zusammenstellen.
+                </p>
+            </article>
+
+            <article class="card" id="anwesenheiten">
+                <h3 class="card__title">Anwesenheiten</h3>
+                <p class="card__text">
+                    Fehlzeiten pro Stunde erfassen, Entschuldigungen vermerken und
+                    Auffälligkeiten früh erkennen.
+                </p>
+            </article>
+
+            <article class="card" id="kursbuch">
+                <h3 class="card__title">Kursbuch</h3>
+                <p class="card__text">
+                    Unterrichtsinhalte, Hausaufgaben und Leistungsentwicklung
+                    nachvollziehbar dokumentieren.
+                </p>
+            </article>
+
+        </div>
+    </section>
+
+</main>
+
+<footer class="site-footer">
+    <p class="site-footer__text">© 2026 BBS 2 Leer · Classroom-Manager</p>
+</footer>
 
 </body>
 </html>
